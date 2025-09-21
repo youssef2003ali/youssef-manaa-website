@@ -17,7 +17,23 @@ class ThemeManager {
 
     init() {
         this.applyTheme();
-        this.setupThemeToggle();
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                this.setupThemeToggle();
+                document.addEventListener('click', (e) => {
+                    if (e.target.closest('.theme-toggle')) {
+                        this.toggle();
+                    }
+                });
+            });
+        } else {
+            this.setupThemeToggle();
+            document.addEventListener('click', (e) => {
+                if (e.target.closest('.theme-toggle')) {
+                    this.toggle();
+                }
+            });
+        }
     }
 
     applyTheme() {
@@ -31,18 +47,31 @@ class ThemeManager {
             body.removeAttribute('data-theme');
             themeIcons.forEach(icon => icon.className = 'fas fa-moon');
         }
+        console.log('applyTheme: data-theme on body:', body.getAttribute('data-theme'));
+        console.log('applyTheme: isDark:', this.isDark);
     }
 
     toggle() {
         this.isDark = !this.isDark;
         localStorage.setItem('theme', this.isDark ? 'dark' : 'light');
+        console.log('toggle: toggled isDark to', this.isDark);
         this.applyTheme();
     }
 
     setupThemeToggle() {
         const toggleButtons = document.querySelectorAll('.theme-toggle');
+        const toggleIcons = document.querySelectorAll('.theme-toggle i');
+        console.log('setupThemeToggle: found toggle buttons count:', toggleButtons.length);
+        const self = this;
         toggleButtons.forEach(button => {
-            button.addEventListener('click', () => this.toggle());
+            button.addEventListener('click', () => {
+                self.toggle();
+            });
+        });
+        toggleIcons.forEach(icon => {
+            icon.addEventListener('click', () => {
+                self.toggle();
+            });
         });
     }
 }

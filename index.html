@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Ali Manaa - Data Scientist</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styels.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">Youssef Ali</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+<li><button class="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+            <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
+            <li><a href="#education" onclick="closeMobileMenu()">Education</a></li>
+            <li><a href="#experience" onclick="closeMobileMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
+            <li><a href="#certifications" onclick="closeMobileMenu()">Certifications</a></li>
+            <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+<li style="padding: 1rem 2rem;">
+    <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+</li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Youssef Ali Manaa</h1>
+                    <div class="subtitle">Data Scientist & AI Developer</div>
+                    <p>Ambitious Computer Engineering student with hands-on experience in AI development, machine
+                        learning, and full-stack project delivery. Currently contributing as an AI Developer at Outlier,
+                        designing intelligent systems and LLM-based tools.</p>
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/youssef-ali-manaa" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/youssef2003ali" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:youssefa700@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+201228734167">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+<div class="hero-image">
+    <img src="profile.jpg" alt="Youssef Ali Manaa Profile" class="profile-image" />
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+                Passionate about solving real-world problems through data science and AI, with a proven track record in
+                machine learning, predictive modeling, and intelligent system development.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-target"></i> Professional Focus</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Science</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">AI Development</span>
+                        <span class="skill-tag">Predictive Modeling</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-briefcase"></i> Current Role</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AI Developer at Outlier</span>
+                        <span class="skill-tag">Data annotation at Perle AI</span>
+                        <span class="skill-tag">LLM Training</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-award"></i> Key Achievements</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">99.1% ML Accuracy</span>
+                        <span class="skill-tag">IEEE 2nd Place</span>
+                        <span class="skill-tag">DEPI Selected</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Leadership Experience</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Student Union Vice Head</span>
+                        <span class="skill-tag">Team Management</span>
+                        <span class="skill-tag">Event Organization</span>
+                        <span class="skill-tag">Project Leadership</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-rocket"></i> Professional Goals</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Innovation Driver</span>
+                        <span class="skill-tag">Problem Solver</span>
+                        <span class="skill-tag">Tech Advancement</span>
+                        <span class="skill-tag">Real-world Impact</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Interests & Passion</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Emerging Technologies</span>
+                        <span class="skill-tag">Data-Driven Solutions</span>
+                        <span class="skill-tag">Continuous Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Major Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.8%</div>
+                        <div class="stat-label">Best ML Accuracy</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Leadership Roles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">
+                Comprehensive expertise across data science, machine learning, and full-stack development
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">XGBoost</span>
+                        <span class="skill-tag">PCA</span>
+                        <span class="skill-tag">Clustering</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Embedded C</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Statistical Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">JavaFX</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Documentation</span>
+                        <span class="skill-tag">Presentation</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education & Training</h2>
+            <p class="section-subtitle">
+                Comprehensive academic background and specialized training programs in computer engineering and AI
+            </p>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">Bachelor of Computer and Systems Engineering</div>
+                            <div class="experience-company">Helwan University, Faculty of Engineering</div>
+                            <div class="experience-date">2022 - 2027</div>
+                        </div>
+                        <ul>
+                            <li>Specializing in Computer Engineering with focus on AI and Data Science</li>
+                            <li>Active in leadership roles within Student Union</li>
+                            <li>Participating in technical competitions and research projects</li>
+                            <li>Building strong foundation in software engineering and embedded systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">STEM High School for Boys</div>
+                            <div class="experience-company">6th Of October, Giza</div>
+                            <div class="experience-date">2019 - 2022</div>
+                        </div>
+                        <ul>
+                            <li>Graduated from prestigious STEM program</li>
+                            <li>Strong foundation in Science, Technology, Engineering, and Mathematics</li>
+                            <li>Early exposure to programming and technical problem-solving</li>
+                            <li>Developed analytical thinking and research methodologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">
+                Current professional roles and training programs contributing to AI development and expertise building
+            </p>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">AI Developer - Freelance</div>
+                            <div class="experience-company">Outlier · Remote</div>
+                            <div class="experience-date">December 2024 - Present</div>
+                        </div>
+                        <ul>
+                            <li>Evaluate AI-generated outputs across multiple domains (code, content, operations) for
+                                correctness, relevance, and quality</li>
+                            <li>Rank and annotate model responses to improve accuracy, coherence, and domain alignment
+                            </li>
+                            <li>Design and author prompt-based challenges, including technical coding problems and
+                                operational decision-making scenarios</li>
+                            <li>Contribute to LLM training processes and model optimization initiatives</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">Machine Learning Summer Training</div>
+                            <div class="experience-company">National Telecommunications Institute (NTI) in collaboration
+                                with ITIDA</div>
+                            <div class="experience-date">June 2025 - July 2025</div>
+                        </div>
+                        <ul>
+                            <li>Acquired solid foundation in supervised and unsupervised learning algorithms</li>
+                            <li>Gained hands-on experience with real-world datasets</li>
+                            <li>Completed two end-to-end machine learning projects</li>
+                            <li>Developed freelancing skills and professional profile optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">Digital Egypt Pioneers Initiative (DEPI)</div>
+                            <div class="experience-company">Ministry of Communications and Information Technology</div>
+                            <div class="experience-date">November 2024 - May 2025</div>
+                        </div>
+                        <ul>
+                            <li>Selected for prestigious IBM-designed DEPI program</li>
+                            <li>Focused on data analysis, machine learning, and real-world applications</li>
+                            <li>Built skills in Python, data visualization, and predictive modeling</li>
+                            <li>Currently developing expertise in AI and Data Science track</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">Front-end Development Using Angular</div>
+                            <div class="experience-company">Information Technology Institute (ITI)</div>
+                            <div class="experience-date">July 2024 - August 2024</div>
+                        </div>
+                        <ul>
+                            <li>Completed training in HTML5, CSS, JavaScript, ES6, TypeScript, and Bootstrap</li>
+                            <li>Gained expertise in Angular for building dynamic, responsive web applications</li>
+                            <li>Developed modern front-end development skills with focus on best practices</li>
+                            <li>Applied knowledge to build interactive web interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">Introduction to AI and Its Applications</div>
+                            <div class="experience-company">Zewail City for Science and Technology</div>
+                            <div class="experience-date">July 2023 - August 2024</div>
+                        </div>
+                        <ul>
+                            <li>Gained deep understanding of Python programming</li>
+                            <li>Learned machine learning, deep learning, and reinforcement learning</li>
+                            <li>Built strong foundation in AI principles and practical applications</li>
+                            <li>Applied theoretical knowledge to real-world AI scenarios</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">1 Million Arab Coders Initiative</div>
+                            <div class="experience-company">Udacity</div>
+                            <div class="experience-date">June 2020 - August 2020</div>
+                        </div>
+                        <ul>
+                            <li>Acquired extensive expertise in HTML and CSS for front-end programming</li>
+                            <li>Enhanced problem-solving skills and understanding of software development principles
+                            </li>
+                            <li>Applied knowledge to effectively address real-world coding challenges</li>
+                            <li>Part of prestigious regional programming initiative</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+                Showcase of machine learning, data science, and full-stack development projects with real-world impact
+            </p>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🍄 Mushroom Classification System</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Advanced ML pipeline predicting mushroom edibility using 60,000+ instances with
+                            comprehensive data preprocessing and multiple algorithm comparison.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Achievements:</h4>
+                            <ul class="metrics-list">
+                                <li>KNN Accuracy: 99.1% with F1 Score: 0.9917</li>
+                                <li>Decision Tree Accuracy: 99.8% with F1 Score: 0.9980</li>
+                                <li>ROC-AUC Score: 0.9998 for optimal performance</li>
+                                <li>Applied advanced EDA and feature engineering</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/Mushroom-Classification-Using-Machine-Learning"
+                                target="_blank" class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🔒 Network Intrusion Detection</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Comprehensive cybersecurity ML solution using UNSW-NB15 dataset to classify network traffic
+                            and detect potential security threats with ensemble methods.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">PCA</span>
+                            <span class="tech-tag">KMeans</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Achievements:</h4>
+                            <ul class="metrics-list">
+                                <li>XGBoost Test Accuracy: 87.4% with F1: 0.90</li>
+                                <li>Ensemble Classifier ROC-AUC: 0.9791</li>
+                                <li>Processed 80K+ test samples effectively</li>
+                                <li>Applied dimensionality reduction and clustering</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/network-intrusion-detection" target="_blank"
+                                class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">📈 Sales Forecasting System</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            End-to-end ML system with Flask API for demand prediction using historical sales data,
+                            external variables, and advanced feature engineering techniques.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">Medical Data</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Achievements:</h4>
+                            <ul class="metrics-list">
+                                <li>Random Forest accuracy: 0.85 after tuning</li>
+                                <li>Comprehensive EDA and correlation analysis</li>
+                                <li>Multiple algorithm comparison and evaluation</li>
+                                <li>ROC AUC optimization for medical predictions</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/Sales-Forecasting-Demand-Prediction"
+                                target="_blank" class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">💊 Pharmacy Management System</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Comprehensive desktop application for pharmacy operations including inventory management,
+                            sales tracking, and customer management with JavaFX GUI.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Desktop App</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Features:</h4>
+                            <ul class="metrics-list">
+                                <li>Complete inventory and stock monitoring</li>
+                                <li>Automated billing and sales reports</li>
+                                <li>Customer and supplier management</li>
+                                <li>Modular OOP architecture for scalability</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/Pharmacy-Mangement-System" target="_blank"
+                                class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🚗 N3N3 Exotics E-Commerce</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Modern, responsive e-commerce website for exotic cars with dynamic features, interactive
+                            displays, and real-time cart management system.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Features:</h4>
+                            <ul class="metrics-list">
+                                <li>Fully responsive design across all devices</li>
+                                <li>Interactive car displays with hover effects</li>
+                                <li>Real-time cart management system</li>
+                                <li>Modern animations and dynamic content</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/N3N3-Exotics" target="_blank"
+                                class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="https://youssef2003ali.github.io/N3N3-Exotics/" target="_blank"
+                                class="btn btn-secondary btn-small">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🌟 Enjad Team Website</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Professional team website with modern design, responsive layout, and interactive elements
+                            aligned with organizational branding and mission.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Font Awesome</span>
+                        </div>
+                        <div class="project-metrics">
+                            <h4>Key Features:</h4>
+                            <ul class="metrics-list">
+                                <li>Clean, modern design with professional aesthetics</li>
+                                <li>Fully responsive across all devices</li>
+                                <li>Interactive team cards with animations</li>
+                                <li>Collaborative development with team alignment</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/youssef2003ali/ENJAD" target="_blank"
+                                class="btn btn-primary btn-small">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="https://youssef2003ali.github.io/ENJAD/" class="btn btn-secondary btn-small" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <p class="projects-cta-text">
+                    Want to see more? Check out my complete project portfolio on GitHub
+                </p>
+                <a href="https://github.com/youssef2003ali" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i>
+                    View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <p class="section-subtitle">
+                Professional certifications and recognitions demonstrating expertise and continuous learning
+            </p>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🏆 IEEE Competition Achievement</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Secured 2nd Place in Modifier 8.0 Embedded Systems Competition for Smart Car project with
+                            multi-mode autonomous functionality.
+                        </p>
+                
+                        <div class="project-metrics">
+                            <h4>Achievement Details:</h4>
+                            <ul class="metrics-list">
+                                <li>🥈 2nd Place - Modifier 8.0 Competition</li>
+                                <li>ATmega32 microcontroller implementation</li>
+                                <li>Multi-mode autonomous car system</li>
+                                <li>Real-time obstacle detection and navigation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">📜 DEPI AI Track Selection</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Selected for prestigious Digital Egypt Pioneers Initiative (DEPI) AI & Data Science Track by
+                            Ministry of Communications and Information Technology.
+                        </p>
+                      
+                        <div class="project-metrics">
+                            <h4>Program Highlights:</h4>
+                            <ul class="metrics-list">
+                                <li>Competitive selection process</li>
+                                <li>IBM-designed curriculum</li>
+                                <li>Government-backed initiative</li>
+                                <li>Focus on practical AI applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">💻 Front-end Development Certificate</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Completed comprehensive Angular training program at Information Technology Institute (ITI)
+                            with focus on modern web development practices.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <h4>Skills Acquired:</h4>
+                            <ul class="metrics-list">
+                                <li>HTML5, CSS3, and JavaScript ES6</li>
+                                <li>Angular framework mastery</li>
+                                <li>TypeScript programming</li>
+                                <li>Responsive design with Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🤖 Machine Learning Training</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Successfully completed intensive Machine Learning Summer Training at National
+                            Telecommunications Institute (NTI) in collaboration with ITIDA.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <h4>Training Outcomes:</h4>
+                            <ul class="metrics-list">
+                                <li>Supervised & unsupervised learning mastery</li>
+                                <li>Two end-to-end ML projects completed</li>
+                                <li>Real-world dataset experience</li>
+                                <li>Freelancing skills development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">🌟 Leadership & Activities</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Active leadership roles across multiple organizations, demonstrating strong organizational
+                            and team management capabilities.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <h4>Key Positions:</h4>
+                            <ul class="metrics-list">
+                                <li>Vice Head Scientific Dept. - Student Union</li>
+                                <li>Vice Head Programming Track - Egypt Family</li>
+                                <li>HR Team Lead - Multiple Organizations</li>
+                                <li>TEDx Assiut & F.C.S.S Team Member</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">📚 Additional Training & Skills</div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Continuous learning through various platforms and programs to stay current with latest
+                            technologies and methodologies.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <h4>Areas of Growth:</h4>
+                            <ul class="metrics-list">
+                                <li>Data visualization and analysis</li>
+                                <li>Model evaluation and optimization</li>
+                                <li>Embedded systems programming</li>
+                                <li>Professional communication skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications-note">
+                <p>
+                    📎 <strong>Note:</strong> Additional certification documents and detailed portfolios are available
+                    upon request via Google Drive links.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">
+                Ready to collaborate on exciting data science projects or discuss opportunities in AI development
+            </p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p class="contact-intro">
+                        I'm always open to discussing new opportunities, collaborating on innovative projects, or simply
+                        connecting with fellow data scientists and developers.
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>youssefa700@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+20 122 873 4167</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>6 October, Giza, Egypt</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/youssef-ali-manaa</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/youssef2003ali</span>
+                    </div>
+
+                    <div class="availability">
+                        <h4>Currently Available For:</h4>
+                        <ul>
+                            <li>🔍 Data Science & AI Projects</li>
+                            <li>💼 Freelance Opportunities</li>
+                            <li>🤝 Research Collaborations</li>
+                            <li>🎯 Full-time Positions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">
+                © 2025 Youssef Ali Manaa. Crafted with passion for data science and innovation.
+            </p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/youssef-ali-manaa" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/youssef2003ali" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:youssefa700@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
